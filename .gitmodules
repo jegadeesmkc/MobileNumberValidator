@@ -1,0 +1,3 @@
+[submodule "POC Framework"]
+	path = POC Framework
+	url = https://github.com/username/repository-name.git
