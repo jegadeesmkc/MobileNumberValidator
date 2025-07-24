@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		38BE38CC2E326543005BE517 /* POC_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BE38CB2E326543005BE517 /* POC_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38BE38D32E3265D7005BE517 /* ValidationFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BE38D22E3265D6005BE517 /* ValidationFile.swift */; };
+		38BE392C2E32A984005BE517 /* ValidationFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BE392B2E32A984005BE517 /* ValidationFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		38BE38C82E326543005BE517 /* POC_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POC_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BE38CB2E326543005BE517 /* POC_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POC_Framework.h; sourceTree = "<group>"; };
 		38BE38D22E3265D6005BE517 /* ValidationFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ValidationFile.swift; path = ../../ValidationFile.swift; sourceTree = "<group>"; };
+		38BE392B2E32A984005BE517 /* ValidationFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				38BE38CB2E326543005BE517 /* POC_Framework.h */,
+				38BE392B2E32A984005BE517 /* ValidationFile.swift */,
 			);
 			path = "POC Framework";
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38BE392C2E32A984005BE517 /* ValidationFile.swift in Sources */,
 				38BE38D32E3265D7005BE517 /* ValidationFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
